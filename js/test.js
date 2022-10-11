@@ -1,18 +1,3 @@
-// How would you determine the number of vowels in a sentence?
+let age = 16;
 
-const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
-
-function countVowels(sentence){
-    let count = 0;
-    const letters = Array.from(sentence);
-
-    letters.forEach(function(value){
-        if(vowels.includes(value)){
-            count++;
-        }
-    });
-
-    return count;
-}
-
-console.log(countVowels("I love Bangladesh"));
+console.log(age >=18 ? "You are an adult." : "You are not an adult.");
